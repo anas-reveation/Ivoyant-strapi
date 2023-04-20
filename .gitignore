@@ -106,10 +106,12 @@ coverage
 # Strapi
 ############################
 
-.env
 license.txt
 exports
 *.cache
 dist
 build
 .strapi-updater.json
+
+# Local Netlify folder
+.netlify
