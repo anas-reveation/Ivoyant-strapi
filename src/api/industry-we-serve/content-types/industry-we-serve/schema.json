@@ -1,33 +1,31 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "industries_we_serve",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Services",
-    "description": ""
+    "singularName": "industry-we-serve",
+    "pluralName": "industries-we-serve",
+    "displayName": "Industries We Serve"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "ServiceName": {
+    "Name": {
       "type": "string"
     },
     "Description": {
       "type": "string"
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "ReadMore": {
       "type": "string"

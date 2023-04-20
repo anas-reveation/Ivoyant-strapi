@@ -1,36 +1,34 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "case_study_topics",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Services",
-    "description": ""
+    "singularName": "case-study-topic",
+    "pluralName": "case-study-topics",
+    "displayName": "Case Study Topic"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "ServiceName": {
+    "Name": {
       "type": "string"
     },
     "Description": {
+      "type": "text"
+    },
+    "ReadMore": {
       "type": "string"
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "ReadMore": {
-      "type": "string"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

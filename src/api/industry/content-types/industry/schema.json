@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries",
+  "info": {
+    "singularName": "industry",
+    "pluralName": "industries",
+    "displayName": "Industries"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainHeading": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "industries_we_serve": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::industry-we-serve.industry-we-serve"
+    }
+  }
+}
