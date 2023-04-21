@@ -1,35 +1,33 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "home_carousels",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Services",
-    "description": ""
+    "singularName": "home-carousel",
+    "pluralName": "home-carousels",
+    "displayName": "Home Carousel"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "ServiceName": {
+    "Heading": {
       "type": "string"
     },
-    "Description": {
+    "SubHeading": {
       "type": "string"
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
-    "ReadMore": {
+    "LetsTalkLink": {
       "type": "string"
     }
   }

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_media_links",
+  "info": {
+    "singularName": "social-media-link",
+    "pluralName": "social-media-links",
+    "displayName": "Social Media Links"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_ivoyants",
+  "info": {
+    "singularName": "about-ivoyant",
+    "pluralName": "about-ivoyants",
+    "displayName": "About-ivoyant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LeftHeading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
