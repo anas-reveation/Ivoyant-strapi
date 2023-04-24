@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "first_sections",
+  "info": {
+    "singularName": "first-section",
+    "pluralName": "first-sections",
+    "displayName": "First Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

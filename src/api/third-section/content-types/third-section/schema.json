@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "third_sections",
+  "info": {
+    "singularName": "third-section",
+    "pluralName": "third-sections",
+    "displayName": "Third-Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
