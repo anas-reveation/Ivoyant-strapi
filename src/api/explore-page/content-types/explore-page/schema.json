@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "explore_pages",
+  "info": {
+    "singularName": "explore-page",
+    "pluralName": "explore-pages",
+    "displayName": "Explore Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
