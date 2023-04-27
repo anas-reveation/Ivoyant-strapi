@@ -4,7 +4,8 @@
   "info": {
     "singularName": "life-section",
     "pluralName": "life-sections",
-    "displayName": "Life Section"
+    "displayName": "Life Section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,18 @@
       "type": "string"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "ButtonText": {
+      "type": "string"
     }
   }
 }
